@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+    box-sizing: border-box;
+    position: relative;
+}
+
+main {
+    display: flex;
+    padding-left: 70px;
+}
+
+aside {
+    margin-right: 50px;
+}
+
+/*header*/
+header {
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+header .title-header {
+    padding: 10px;
+    padding-left: 56px;
+    padding-top: 20px;
+}
+
+header nav {
+    margin-right: 30px;
+}
+
+header nav a {
+    margin-right: 20px;
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/*section ,aside*/
+section .content,
+aside {
+    margin-top: 35px;
+}
+
+/*section*/
+figure img {
+    border-radius: 1px
+}
+.text-section h2 {
+    font-weight: 500;
+    display: block;
+}
+
+.text-section p {
+    font-weight: 500;
+    color: rgb(62, 62, 62);
+    display: block;
+}
+
+.text-section span {
+    font-weight: bold;
+    display: block;
+}
+
+.text-section a {
+    display: block;
+    text-decoration: none;
+    color: rgb(91, 91, 91);
+    font-weight: 500;
+}
+
+/*aside*/
+/*busca*/
+.busca {
+    border: 1px solid rgb(125, 125, 125);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.busca form {
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.busca form input {
+    height: 36px;
+    padding-bottom: 4px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.busca form button {
+    border-radius: 0;
+}
+
+/*Categorias*/
+.categorias,
+.tags {
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.categorias h3,
+.tags h3,
+.busca h3 {
+    font-weight: 600;
+}
+
+.categorias nav a {
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    color: rgb(62, 62, 62);
+    font-size: 18px;
+}
+
+.categorias nav a:hover {
+    color: rgb(124, 120, 183);
+}
+
+/*tags*/
+.tags .col{
+    text-align: center;
+    padding: 12px 10px;
+  
+}
+.tags .col p{
+    background-color: rgba(222, 222, 222, 0.668);
+    border-radius: 4px;
+   padding: 5px;
+   cursor: pointer;
+}
+.tags .col p:hover{
+    background-color: rgba(169, 169, 169, 0.668);
+    color: black;
+}
+/*footer*/
+footer {
+    margin-top: 50px;
+    border-top: 1px solid rgb(112, 112, 112);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+footer h2 {
+    font-weight: 500;
+}
